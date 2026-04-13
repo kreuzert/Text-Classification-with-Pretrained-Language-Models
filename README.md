@@ -1,3 +1,5 @@
+[![Runs on Jupyter4NFDI](https://github.com/apawlik/Text-Classification-with-Pretrained-Language-Models/actions/workflows/jupyter4nfdi_ready_check.yml/badge.svg)](https://github.com/apawlik/Text-Classification-with-Pretrained-Language-Models/actions/workflows/jupyter4nfdi_ready_check.yml)
+
 # A Step-By-Step Guide to Text Classification by Fine-tuning Large Language Model (RoBERTa)
 
 To take this tutorial we recommend to use an environment with access to a GPU with at least 16 GB VRAM, like Google Colaboratory. See the [Methods Hub page](https://doi.org/10.71627/Text-Classification-with-Pretrained-Language-Model) for links to open the tutorial in supported online environments.
