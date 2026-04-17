@@ -13,6 +13,7 @@ jobs:
       - name: Run notebooks via papermill on JupyterHub
         uses: NFDI-Jupyter/ghactions/.github/actions/notebooks@main
         with:
+          api_url: https://jupyter-staging.jsc.fz-juelich.de/hub/api/job
           repo: ${{ github.repository }}
           ref: ${{ github.ref_name }}
           token: ${{ secrets.JUPYTERHUB_API_TOKEN }}
